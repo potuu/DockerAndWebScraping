@@ -1,4 +1,0 @@
-Flask
-confluent-kafka
-beautifulsoup4
-requests
