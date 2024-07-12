@@ -26,7 +26,7 @@ docker rm kafka zookeeper
 # Docker Compose ile Başlatma
 Docker Compose ile hizmetleri başlatmak için:
 
-docker-compose -f docker-compose-task2.yml up -d
+docker-compose -f docker-compose_task2.yml up -d
 
 # Ürünleri Çekme
 Web sitesinden ürün bilgilerini çekmek için:
