@@ -1,7 +1,7 @@
 
 ### Web Scraping Projesi ###
 
-Bu proje, belirli bir web sitesinden ürün bilgilerini çekmek için Flask ve BeautifulSoup kullanarak geliştirilmiştir. Ayrıca, Kafka ve Zookeeper ile veri akışını yönetir.
+Bu proje, https://scrapeme.live/shop/ web sitesinin ilk sayfasından ürün bilgilerini çekmek için Flask ve BeautifulSoup kullanarak geliştirilmiştir. Ayrıca, Kafka ve Zookeeper ile veri akışını yönetmeyi hedeflemektedir.
 
 ## Başlangıç
 
