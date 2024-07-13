@@ -10,7 +10,7 @@ Bu proje, Docker kullanarak Kafka ve Zookeeper kurulumunu ve kullanımını içe
 
 1. **Proje dizinine git:**
 
-#Docker Compose ile Zookeeper ve Kafka başlat:
+# Docker Compose ile Zookeeper ve Kafka başlat:
 
 docker-compose up -d
 
