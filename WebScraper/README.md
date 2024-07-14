@@ -10,8 +10,8 @@ Proje dizinine gitmek için:
 ### Sanal Ortamı Aktifleştirme
 Projenin gereksinimlerini yüklemek için sanal ortamı aktifleştirin:
 
-```python -m venv venv
-venv/Scripts/activate```
+```python -m venv venv```
+```venv/Scripts/activate```
 
 # Gereksinimleri Yükleme
 Gerekli kütüphaneleri yüklemek için aşağıdaki komutu çalıştırın:
