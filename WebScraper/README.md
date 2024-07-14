@@ -4,7 +4,8 @@
 Bu proje, https://scrapeme.live/shop/ web sitesinin ilk sayfasından ürün bilgilerini çekmek için Flask ve BeautifulSoup kullanarak geliştirilmiştir. Ayrıca, Kafka ve Zookeeper ile veri akışını yönetmeyi hedeflemektedir.
 
 ## Başlangıç
-
+Proje dizinine gitmek için:
+cd WebScraper 
 ### Sanal Ortamı Aktifleştirme
 Projenin gereksinimlerini yüklemek için sanal ortamı aktifleştirin:
 
