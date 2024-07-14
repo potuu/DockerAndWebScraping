@@ -62,8 +62,10 @@ Flask uygulamasını başlatmak için:
 Oluşturulan Docker imajından bir konteyner başlatmak için:
 
 ```docker run -p 5000:5000 my_flask_app```
+
 P.S. eğer Docker kontenyeri çalışırken hata ile karşılaşırsanız aşağıdaki komutları çalıştırmak bu problemi çözecektir:
 ```docker stop zookeeper kafka```
+
 ```docker rm zookeper kafka```
 
 
