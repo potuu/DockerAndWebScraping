@@ -5,7 +5,7 @@ Bu proje, https://scrapeme.live/shop/ web sitesinin ilk sayfasından ürün bilg
 
 ## Başlangıç
 Proje dizinine gitmek için:
-```cd WebScraper```
+`cd WebScraper`
 ### Sanal Ortamı Aktifleştirme
 Projenin gereksinimlerini yüklemek için sanal ortamı aktifleştirin:
 
