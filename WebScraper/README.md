@@ -22,8 +22,8 @@ Gerekli kütüphaneleri yüklemek için aşağıdaki komutu çalıştırın:
 Uyarı:
 Eğer Kafka ve Zookeeper başka bir işlem tarafından kullanılıyorsa, bunları durdurmak için şu komutları çalıştırın:
 
-```docker stop kafka zookeeper
-docker rm kafka zookeeper```
+```docker stop kafka zookeeper```
+```docker rm kafka zookeeper```
 
 # Docker Compose ile Başlatma
 Docker Compose ile hizmetleri başlatmak için:
