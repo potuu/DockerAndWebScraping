@@ -23,7 +23,7 @@ Aşağıdaki komutu çalıştırarak bu kısmın dizinine gelebilirsiniz
 Bu komutla Kafka konteynerinin container_id’sini öğrenebilirsiniz.
 Hata ile karşılaşmamak adına aşağıdaki komutu Container adını girdikten sonra kapatabilirsiniz.
 
-```docker stop //container adı//```
+```docker stop <container adı>```
 
 # Kafka konteynerine bağlan:
 
