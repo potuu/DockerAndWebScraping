@@ -23,6 +23,7 @@ Uyarı:
 Eğer Kafka ve Zookeeper başka bir işlem tarafından kullanılıyorsa, bunları durdurmak için şu komutları çalıştırın:
 
 ```docker stop kafka zookeeper```
+
 ```docker rm kafka zookeeper```
 
 # Docker Compose ile Başlatma
