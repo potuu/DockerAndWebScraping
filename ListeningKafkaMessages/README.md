@@ -8,7 +8,7 @@ Bu proje, Docker kullanarak Kafka ve Zookeeper kurulumunu ve kullanımını içe
 
 ## Kurulum Adımları
 
-1. **Proje dizinine git:**
+**Proje dizinine git:**
 Aşağıdaki komutu çalıştırarak bu kısmın dizinine gelebilirsiniz
 
 cd ListeningKafkaMessages 
