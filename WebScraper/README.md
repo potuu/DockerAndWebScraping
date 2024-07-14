@@ -10,61 +10,61 @@ Proje dizinine gitmek için:
 ### Sanal Ortamı Aktifleştirme
 Projenin gereksinimlerini yüklemek için sanal ortamı aktifleştirin:
 
-python -m venv venv
-venv/Scripts/activate
+```python -m venv venv
+venv/Scripts/activate```
 
 # Gereksinimleri Yükleme
 Gerekli kütüphaneleri yüklemek için aşağıdaki komutu çalıştırın:
 
-pip install -r requirements.txt
+```pip install -r requirements.txt```
 
 ### Docker Kullanımı
 Uyarı:
 Eğer Kafka ve Zookeeper başka bir işlem tarafından kullanılıyorsa, bunları durdurmak için şu komutları çalıştırın:
 
-docker stop kafka zookeeper
-docker rm kafka zookeeper
+```docker stop kafka zookeeper
+docker rm kafka zookeeper```
 
 # Docker Compose ile Başlatma
 Docker Compose ile hizmetleri başlatmak için:
 
-docker-compose -f docker-compose_task2.yml up -d
+```docker-compose -f docker-compose_task2.yml up -d```
 
 # Ürünleri Çekme
 Web sitesinden ürün bilgilerini çekmek için:
 
-python scrape-products.py
+```python scrape-products.py```
 
 # Kafka'ya Gönderme
 Ürün bilgilerini Kafka'ya göndermek için:
 
-python scrape_to_kafka.py
+```python scrape_to_kafka.py```
 
 ## Flask API'yi Çalıştırma
 Flask uygulamasını başlatmak için:
 
-python api_service.py
+```python api_service.py```
 
 
 ## Sanal Ortamı Kapatma
 İşlemler tamamlandığında sanal ortamı kapatmak için:
 
-deactivate
+```deactivate```
 
 
 ### Docker İmajı Oluşturma
 
 # Docker imajını oluşturmak için:
 
-docker build -t my_flask_app .
+```docker build -t my_flask_app .```
 
 # Docker Konteynerini Çalıştırma
 Oluşturulan Docker imajından bir konteyner başlatmak için:
 
-docker run -p 5000:5000 my_flask_app
+```docker run -p 5000:5000 my_flask_app```
 P.S. eğer Docker kontenyeri çalışırken hata ile karşılaşırsanız aşağıdaki komutları çalıştırmak bu problemi çözecektir:
-docker stop zookeeper kafka
-docker rm zookeper kafka
+```docker stop zookeeper kafka
+docker rm zookeper kafka```
 
 
 ### Notlar
